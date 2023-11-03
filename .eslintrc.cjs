@@ -3,8 +3,12 @@ module.exports = {
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
+<<<<<<< HEAD
 		'plugin:svelte/recommended',
 		'prettier'
+=======
+		'plugin:svelte/recommended'
+>>>>>>> master
 	],
 	parser: '@typescript-eslint/parser',
 	plugins: ['@typescript-eslint'],

@@ -6,6 +6,19 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+<<<<<<< HEAD
+=======
+		interface Locals {
+			user: {
+				id: number;
+				email: string;
+				is_active: boolean;
+				is_superuser: boolean;
+				is_verified: boolean;
+				name: string;
+			};
+		}
+>>>>>>> master
 	}
 }
 
